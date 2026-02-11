@@ -1,6 +1,4 @@
-import hashlib, requests, getpass
-import tkinter as tk
-from tkinter import simpledialog, messagebox
+import hashlib, requests
 
 pw = input("Check password: ")
 h = hashlib.sha1(pw.encode()).hexdigest().upper()
